@@ -2,8 +2,10 @@
 #include <cmath> // For sqrt() and pow()
 #include "Point.h"
 #include "Rectangle.h"
+#include "Rectangle1.cpp"
+#include "Point.cpp"
 
-/* int main() {
+ int main() {
     Point p1(1.0, 2.0);
     Point p2(4.0, 6.0);
 
@@ -17,4 +19,3 @@
 
     return 0;
 }
-*/
