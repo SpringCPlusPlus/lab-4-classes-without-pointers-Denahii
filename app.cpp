@@ -3,7 +3,7 @@
 #include "Point.h"
 #include "Rectangle.h"
 
-int main() {
+/* int main() {
     Point p1(1.0, 2.0);
     Point p2(4.0, 6.0);
 
@@ -17,3 +17,4 @@ int main() {
 
     return 0;
 }
+*/
