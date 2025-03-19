@@ -1,7 +1,6 @@
 name: Autograding Tests
 'on':
 - push
-- repository_dispatch
 permissions:
   checks: write
   actions: read
@@ -21,6 +20,8 @@ jobs:
         setup-command: ''
         command: make test
         timeout: 10
+    - name: Set execute permissions for a.out
+      run: chmod +x a.out
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
