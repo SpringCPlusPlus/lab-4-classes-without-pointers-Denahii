@@ -1,6 +1,17 @@
 #include "Rectangle.h"
 
 // put in the code for the constructors
+// Constructor takes point and initializes with default width and height of 0
+Rectangle::Rectangle(Point p) : topLeft(p) {
+  width = 0;
+  height = 0;
+}
+
+// Constructor takes a Point and specific width and height values
+Rectangle::Rectangle(Point p, double w, double h) : topLeft(p) {
+  width = w;
+  height = h;
+}
 
 void Rectangle::set_width(double w) { width = w; }
 void Rectangle::set_height(double h) { height = h; }
